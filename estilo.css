@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    background: darkslategrey;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+header img{
+    width: 100px;
+    margin-left: 35%;
+    margin-top: 1%;
+    border-radius: 100%;
+}
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+section{
+    width: 70%;
+    margin: 0 auto;
+}
+article{
+    padding: 20px 0 20px 0;
+    border-bottom: 1px dotted darkgrey;
+}
+article h2{
+    float: left;
+    border-bottom: 2px solid cadetblue;
+    padding-bottom: 5px;
+    line-height: 1.3em;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+article p, article ul{
+    margin-left: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkslategrey;
+    line-height: 1.3em;
+    margin-bottom: 1.6em;
+}
+article ul li {
+    margin-left: 15px;
+    list-style: square;
+}
+footer{
+    margin-top: 8em;
+    padding: 1em;
+    width: 100%;
+    background: darkslategrey;
+    color: azure;
+}
+footer a:link, footer a:visited{
+    color: azure;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+@media screen and (max-width: 700px){
+    article{ grid-column: 1 / 3; }
+}
+/*MENU*/
+body {
+	background:f1f1f1;
+	font-family: 'Open Sans', sans-serif;
+}
+#menu {
+	float:left;
+	overflow:hidden;
+}
+#menu a{
+	text-decoration:none;
+	color:#fff;
+}
+#menu li {
+  float: left;
+  overflow: hidden;
+  list-style: none;
+  padding: 10px 0px;
+  border: 1px solid #ddd;
+  background: #3A95A9;
+  color: #fff;
+  text-align: center;
+  min-width: 132px;
+}
+#menu li:hover {
+	cursor:pointer;
+}
+#menu li img{
+	margin: 0px 0px -2px 0px;
+}
+#menu ul{
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 11px;
+  max-width: 132px;
+  overflow: hidden;
+}
+#menu ul li {
+	background:#1E9DBB;
+}
+@media screen and (max-width: 580px) {
+#menu li {
+		float:none;
+}
+#menu ul {
+  position: relative;
+}
+	
+#menu ul li {
+	border:none;
+}
+}

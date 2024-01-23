@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="js/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Sergio Vilchez</h1>
+        <h2>curriculum vitae</h2>
+        <img src="perfil1.jpg" alt="">
+        <nav id="menu">
+            <li>MENU <img src="http://i.imgur.com/YumZS1I.png" width="13" height="12">
+            <ul style="display:none">
+                    <li><a href="formulario.html">Contactame</a></li>
+                    <li><a href="https://goo.gl/maps/pEHwQJp9iwjT2Uqf9">Ubicacion</a></li>
+                    <li><a href="#">Categoria3</a></li>
+                </ul>
+            </li>
+            </nav>
+    </header>
+    <section>
+        <article>
+            <h2>detalles</h2>
+            <p>-Calle de San Lorenzo,67,28004,Madrid,España</p>
+            <p>-s.martin01@hotmail.com</p>
+            <p>-0342347562</p>
+            <p>-26/07/1999 </p>
+        </article>
+        <article>
+            <h2>mi perfil</h2>
+            <p>Preparado para utilizar mis habilidades y pasion para impulsar la mision de una compañia.
+               Tecnologicamente habil, ofrezco experiencia con muchas plataformas de medios sociales,
+               progrmas de teclogia de oficina y habilidades informaticas avanzadas.
+               Aporto una actitud positiva y la voluntad y mmotivacion para aprender nuevos programas. 
+            </p>
+        </article>        
+        <article>
+            <h2>mi formacion</h2>
+            <ul>
+                <li><a href="https://edteam-media.s3.amazonaws.com/certificates/original/e8aaac79-e7fb-41b1-92f5-b5afe3a5790a.png" style="text-decoration: none;">Curso HTML</a></li>
+                <li>Curso CSS Avanzado</li>
+                <li><a href="https://edteam-media.s3.amazonaws.com/certificates/original/351f2d73-5024-4e21-9965-a0598703e563.png" style="text-decoration: none;">Curso JavaScript</a></li>
+                <li><a href="https://824da5e8-a-62cb3a1a-s-sites.googlegroups.com/site/sergiovelazquezrico/home/SCAN0088.JPG?attachauth=ANoY7cpJOFpF4_khEzhbKWsfGScmSzPznS3caO70kqwU8F4yVa0f1tFAU6xCxe39ZD_9-
+                            jzWpIHEl7VquUMtdFnloHWQ8Oey7yJ8F1CGC1KrxGc7rCBdybk1bSQkKvkg8uVSV9vA5xNZnTVWNnNPB6wHSJS-KE4bE67ppmwyEOqigPj90NG0aVizassGD42LuFZ4FFRZgoCWXcXFKz5ORpAb7J4Qd4HjVppy0Gjq0O8o7ubRlZ2Rqss%3D&attredirects=0" style="text-decoration: none;">Curso Ingles</a></li>
+            </ul>
+        </article>
+        <footer>
+            <center>
+            <p>Copyright 2023 por Sergio Vilchez  <a href="">tel:78854321</a></p>
+            </center>
+        </footer>
+    </section>
+</body>
+</html>
+<script>
+    $('#menu li').click(function(){	
+	    $(this).find('ul').slideToggle('slow');	
+    });
+</script>
